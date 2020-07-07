@@ -1,4 +1,4 @@
-package com.ashitsathish.beerservice.model;
+package com.ashitsathish.beerservice.web.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

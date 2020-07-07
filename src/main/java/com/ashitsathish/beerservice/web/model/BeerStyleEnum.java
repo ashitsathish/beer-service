@@ -1,4 +1,4 @@
-package com.ashitsathish.beerservice.model;
+package com.ashitsathish.beerservice.web.model;
 
 /**
  * Created by ashitsathish on Jul,2020
