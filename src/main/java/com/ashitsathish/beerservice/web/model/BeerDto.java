@@ -21,24 +21,32 @@ import java.util.UUID;
 @NoArgsConstructor
 @AllArgsConstructor
 public class BeerDto {
+
     @Null
     private UUID id;
+
     @Null
     private Integer version;
+
     @Null
-    private OffsetDateTime createDate;
+    private OffsetDateTime createdDate;
+
     @Null
-    private OffsetDateTime modifiedDate;
+    private OffsetDateTime lastModifiedDate;
+
     @NotBlank
     private String beerName;
+
     @NotNull
-    private BeerStyleEnum beerStyleEnum;
-    @Positive
+    private BeerStyleEnum beerStyle;
+
     @NotNull
     private Long upc;
+
     @Positive
     @NotNull
     private BigDecimal price;
+
     private Integer quantityOnHand;
 
 }
